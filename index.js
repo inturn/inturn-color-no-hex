@@ -5,7 +5,7 @@ const stylelint = require('stylelint');
 const findColor = require('happytree').findColor;
 
 const { report, ruleMessages, validateOptions } = stylelint.utils;
-const ruleName = "inturn-color-no-hex";
+const ruleName = "inturn/inturn-color-no-hex";
 
 const messages = ruleMessages(ruleName, {
   rejected: hex => `Unexpected hex color "${hex}"`
