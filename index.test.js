@@ -2,7 +2,7 @@
 
 const ava = require('ava');
 const testRule = require('stylelint-test-rule-ava');
-const rule = require('./index');
+const rule = require('./index').rule;
 
 const { ruleName, messages } = rule;
 

@@ -56,5 +56,8 @@ const rule = function(actual) {
 
 rule.ruleName = ruleName;
 rule.messages = messages;
-module.exports = rule;
+module.exports = {
+  default: stylelint.createPlugin(rule),
+  rule,
+};
 
