@@ -1,4 +1,6 @@
-# color-no-hex
+# inturn-color-no-hex
+
+Forked from [stylelint no-color-hex](https://github.com/stylelint/stylelint/tree/master/lib/rules/color-no-hex)
 
 Disallow hex colors.
 
