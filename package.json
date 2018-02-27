@@ -1,0 +1,20 @@
+{
+  "name": "inturn-color-no-hex",
+  "version": "1.0.0",
+  "description": "Stylelint rule that rejects hex values and recommends replacements",
+  "main": "index.js",
+  "author": "Dan Cherouny",
+  "license": "MIT",
+  "scripts" : {
+    "test": "yarn ava"
+  },
+  "dependencies": {
+    "happytree": "git+ssh://git@bitbucket.org/inturnco/happytree.git#5cc73114a79518aaa31187585a9342e5b141f6ad",
+    "style-search": "^0.1.0",
+    "stylelint": "^9.1.1"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "stylelint-test-rule-ava": "^0.2.0"
+  }
+}
